@@ -10,4 +10,11 @@ public class PuzzleJava {
         }
         return rolls;
     }
+
+    public String getLetter() {
+        String [] alphBeta = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
+        return alphBeta[randMachine.nextInt(0,25)];
+       
+    }
+    
 }

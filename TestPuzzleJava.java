@@ -7,6 +7,8 @@ public class TestPuzzleJava {
 		ArrayList<Integer> randomRolls = generator.getTenRolls();
 		System.out.println(randomRolls);
 		
+		String randomLetter = generator.getLetter();
+		System.out.println(randomLetter);
     	        //..
 		// Write your other test cases here.
 		//..
